@@ -1,0 +1,183 @@
+body {
+    font-size: 16px;
+    line-height: 18px;
+    color: #444;
+}
+
+* {
+    font-family: 微软雅黑 !important;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+legend,
+input,
+textarea,
+button,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: none
+}
+
+.clear {
+    height: 1px;
+    overflow: hidden;
+    clear: both;
+}
+
+a,
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+a:hover {
+    border: 0;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.nf {
+    clear: both;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+
+.green {
+    color: #00b500;
+    font-weight: bold;
+}
+
+.ds {
+    display: block;
+}
+
+.hid {
+    overflow: hidden;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:after {
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    content: '.';
+    font-size: 0
+}
+
+.jianbian {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f4f4f4), color-stop(100%, #eee));
+    background: -webkit-linear-gradient(top, #f4f4f4 0, #eee 100%);
+    background: linear-gradient(to bottom, #f4f4f4 0, #eee 100%);
+}
+
+.bottomshadow {
+    border-bottom: solid 1px #B3B3B3;
+    -webkit-box-shadow: 0 1px 1px 0 #DFDFDF;
+    box-shadow: 0 1px 1px 0 #DFDFDF;
+}
+
+
+/* 
+.zh_click {
+    display: inline-block;
+    width: 25px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    margin-left: -7px;
+    margin-top: -4px;
+}
+
+.clas-header-top-rigth-box {
+    width: 350px;
+    margin-left: 232px;
+} */
+
+
+/* #zh_click_s {
+    background: #888;
+    color: #fff;
+}
+
+#zh_click_t {
+    background: #fff;
+    color: #555;
+}
+
+#zh_click_s {
+    background: #191919;
+    color: #fff;
+    border-radius: 2px;
+    width: 25%;
+    height: 28px;
+    line-height: 28px;
+    position: absolute;
+    right: 99px;
+    top: 4px;
+}
+
+#zh_click_t {
+    background: #303030;
+    color: #fff;
+    border-radius: 2px;
+    width: 25%;
+    height: 28px;
+    line-height: 28px;
+    position: absolute;
+    left: 7px;
+    top: 4px;
+} */
+
+.clas-header-top {
+    width: 100%;
+    height: 83px;
+    background: #191919;
+}
+
+
+/*公共banner nav*/
